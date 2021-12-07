@@ -13,9 +13,26 @@ Fork and clone this repository and answer questions as you research directly in 
 
 # Questions:
 1. What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
+    * NoSQL databases are non-tabular(no tables) databases and store data differently than relational tables. NoSQL DBs have a variety of types based on their data model.  
+    * Main types: Document, key-value, wide-column, and graph
+    * Also known as nonrelational databases  
 2. What are some of the common arguments for using a non-relational versus a relational db?
-3. In this class we will be using the document style of non-relational databases. What are the charecteristics of a document based db? 
-4. In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the priamry difference between how Mongo is maintained vrs SQL?
+    * No investment to design model.
+    * Rapid development cycles
+    * In general faster than SQL
+    * Runs well on the cloud  
+3. In this class we will be using the document style of non-relational databases. What are the charecteristics of a document based db?
+    * A document based db is composed of field and value pairs
+    * Like a JSON file except its BSON(Binary JSON)
+    * BSON extends JSON with additional data types, such as ObjectID and Date
+
+4. In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the priamry difference between how Mongo is maintained vrs SQL?  
+    * MongoDB automatically maintains replica sets, multiple copes of data that are distributed across servers, racks, and data centers. Replica sets help prevent database downtime using native replication and automatic failover
+    * Replica set consists of multiple replica set members.  
 5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo. 
+    * Tables in SQL(pgAdmin4) would be accessed by going to the Schemas dir, then going into public, Tables, and then your users table should be residing within.
+    * users in mongodb would be located in collections(table in SQL)  
+
 6. What is an example situation where a Mongo database makes sense versus a non-relational db?
+    * MongoDB is a nonrelational DB.
 
