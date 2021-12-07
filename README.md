@@ -33,6 +33,8 @@ Fork and clone this repository and answer questions as you research directly in 
     * Tables in SQL(pgAdmin4) would be accessed by going to the Schemas dir, then going into public, Tables, and then your users table should be residing within.
     * users in mongodb would be located in collections(table in SQL)  
 
-6. What is an example situation where a Mongo database makes sense versus a non-relational db?
-    * MongoDB is a nonrelational DB.
+6. What is an example situation where a Mongo database makes sense versus a relational db?
+    * You want to use MongoDB over a relationalDB(SQL) when you need to store larger volumes of data without structure.
+    * Using cloud computing and storage. Using affordable hardware on-site for tesitng and then for production in the cloud is what NoSQL databases are designed for.
+    * Rapid development. Using modern agile methodologies, a relational database will slow you down. A NoSQL db doesn't require the level of preparation usually needed for relationalDBs
 
