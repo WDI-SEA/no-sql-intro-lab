@@ -1,0 +1,38 @@
+* What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
+
+noSQL refers to a non-relational database. noSQL stores data in a format other than relational tables. They are also known as graph databases.
+
+* What are some of the common arguments for using a non-relational versus a relational db?
+
+A reason to use a non relational database is to store unlimited sets of data with any type and have the flexibility to change their data types. Relational databases work best with small to medium size databases because they can perform intensive read and write operations. Relational database also have join tables while non relational databases dont have a way to join tables. 
+
+* In this class we will be using the document style of non-relational databases. What are the charecteristics of a document based db?
+
+A document based database key features are:
+   1. data is stored in documents
+   2. documents map to objects
+   3. have a flexible schema - all collections dont need to have the same fields. They 4. do have the options to lockdown schema
+   5. allowed to query through an API or query language
+
+
+* In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the priamry difference between how Mongo is maintained vrs SQL?
+
+SQL is best for maintaining data consistency across applications and database copies. These databases make sure that they have the same data in their databases all the time. 
+
+
+
+* Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo.
+
+To create a new database in mongo:
+
+    1. use myStore
+    2. db.createCollection('users)
+    3. db.users.insert({
+        name: 'Kelly Larrea'
+        age: 30
+    })
+
+* 
+What is an example situation where a Mongo database makes sense versus a non-relational db?
+
+I believe a great example for the use of a mongo databe is when you are handling a large amount of data and collections where you wont need relationships between data. 
