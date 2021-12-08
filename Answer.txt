@@ -1,0 +1,27 @@
+1. What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
+    -noSQL usually refer to non-relational database. Other terms include: non SQL or not only SQL.
+
+2. What are some of the common arguments for using a non-relational versus a relational db?
+
+Common arguments for the non-relational database:
+    - Non-relational databases often perform faster because a query doesn't have to view several tables in order to deliver an answer, as relational datasets often do.
+    - Non-relational databases are therefore ideal for storing data that may be changed frequently or for applications that handle many different kinds of data.
+Common arguments for the relational database:
+    - It has the features of data entry, data deletion, and creating of new entry and records etc.
+    - The database provides the ease of accessing and maintaining data easily.
+
+3. In this class we will be using the document style of non-relational databases. What are the characteristics of a document based db? 
+    - Designed to store and query data as JSON-like documents.
+    - Inherently a subclass of the key-value store.
+    - Document-store is designed to offer a richer experience with      modern programming techniques.
+
+4. In this class we will be using Mongo specifically as our no-SQL db. Look into Mongo and answer this question: what is the primary difference between how Mongo is maintained vrs SQL?
+    - Mongo is maintained: reads and writes are issued to the primary member of a replica set. Applications can optionally read from secondary replicas, where data is eventually consistent by default.
+
+5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo.
+    -SQL: Tables with fixed rows and columns
+    -NoSQL: Document: JSON documents, Key-value: key-value pairs, Wide-column: tables with rows and dynamic columns, Graph: nodes and edges
+
+6. What is an example situation where a Mongo database makes sense versus a relational db?
+    - Mongo: When you need high availability data with automatic, fast and instant data recovery. Ex: Weather API
+    - SQL: If you're starting and your database is not going to scale much. Ex: Bowling Alley
