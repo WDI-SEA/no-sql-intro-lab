@@ -13,9 +13,29 @@ Fork and clone this repository and answer questions as you research directly in 
 
 # Questions:
 1. What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
+The term noSQL refers to any non-relational database. NoSQL also refers to “not only SQL” or “non-SQL”.
 2. What are some of the common arguments for using a non-relational versus a relational db?
+Some benefits of using a non-relational database include:
+* scalability and speed
+* can store new data even if it doesn't fit the data types of previously existing information
+* can collate different information types together in the same document
+* built for the cloud
 3. In this class we will be using the document style of non-relational databases. What are the charecteristics of a document based db? 
+Data is stored in individual pages or documents.
 4. In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the priamry difference between how Mongo is maintained vrs SQL?
-5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo. 
-6. What is an example situation where a Mongo database makes sense versus a non-relational db?
+Mongo is maintained by a publicly traded company whereas SQL is a querying language. 
+5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo.
 
+User table using SQL
+id	username	password	email
+1	dummyuser	12345678	dummy@domain.com
+
+User table using MongoDB
+{   "_id": ObjectId("xxxxxxxxxxxxxxxxxxxx"),
+    "user": "dummyuser",
+    "password": "12345678",
+    "email": "dummy@domain.com"
+}
+
+6. What is an example situation where a Mongo database makes sense versus a non-relational db?
+Mongo doesn't require a database administrator. It is user-friendly and can be used by both developers and administrators.
