@@ -1,0 +1,56 @@
+1) What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
+
+    noSQL is an approach to database design that enables the storage and querying of data outside the traditional structures found in relational databases. The rem used synonymously with noSQL is non-SQL or non-relational.
+
+2) What are some of the common arguments for using a non-relational versus a relational db?
+
+    Non-relational databases often perform faster because a query doesn't have to view several tables in order to deliver an answer, as relational datasets often do. Non-relational databases are therefore ideal for storing data that may be changed frequently or for applications that handle many different kinds of data.
+
+3) In this class we will be using the document style of non-relational databases. What are the charecteristics of a document based db?
+
+    A document database (also known as a document-oriented database or a document store) is a database that stores information in documents. Document databases offer a variety of advantages, including: An intuitive data model that is fast and easy for developers to work with. A flexible schema that allows for the data model to evolve as application needs change. The ability to horizontally scale out.
+
+4) In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the primary difference between how Mongo is maintained vs SQL?
+
+    Document databases are considered to be non-relational (or NoSQL) databases. Instead of storing data in fixed rows and columns, document databases use flexible documents. Document databases are the most popular alternative to tabular, relational databases.
+
+    The major difference between MongoDB and SQL Databases is the way they handle data. In SQL databases, data is stored in form of traditional 2 dimensional row-column structure while in MongoDB rich data document model is followed, which allows storage of any type of data.
+
+5) Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo.
+
+    SQL: CREATE DATABASE testdb;
+         CREATE TABLE students (
+         id SERIAL PRIMARY KEY,
+         name TEXT,
+         phone VARCHAR(15),
+         email TEXT
+)
+         INSERT INTO students
+         (name, phone, email)
+         VALUES
+         ('William Smith', '(555)555-5555', 'manny@domain.com');
+
+         INSERT INTO students
+         (name, phone, email)
+         VALUES
+         ('Bob Jones', '(555)555-5555', 'manny@domain.com');
+
+    noSQL: > use myDB
+           > db.students.insert({
+           name: "William Smith",
+           type: "mobile",
+           contact: "(555) 555-5555"
+           type: "email",
+           contact: "manny@domain.com" 
+})
+
+6) What is an example situation where a Mongo database makes sense versus a non-relational db?
+
+    If your concerns are time to market, developer productivity, supporting DevOps and agile methodologies, and building stuff that scales without operational gymnastics, MongoDB is the way to go.
+
+    If you are looking for a distributed database for modern transactional and analytical applications that are working with rapidly changing, multi-structured data, then MongoDB is the way to go.
+
+    If you are supporting an application you know will have to scale in terms of volume of traffic or size of data (or both) and that needs to be distributed across regions for data locality or data sovereignty, MongoDB’s scale-out architecture will meet those needs automatically.
+
+    An example of this would be any social media platfom. Due to the scale at which these platforms grow, how rapidly the data changes, and the multi-structured data, MongoDB makes more sense. 
+
