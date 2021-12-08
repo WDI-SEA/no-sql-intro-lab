@@ -19,3 +19,12 @@ Fork and clone this repository and answer questions as you research directly in 
 5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo. 
 6. What is an example situation where a Mongo database makes sense versus a non-relational db?
 
+
+Non-relational database.
+Relational structured into categories, easy to navigate, relationships between data is easily defined.
+Non-relational can perform functions that make it easier flexibility.
+If the data set is big than non-relational is best.
+Other databases are stored in tables or graphs.
+Map to objects in common programming languages.
+SQL is stored in tables, Mongo is stored is collections.
+It makes more sense to use Mongodb with apps/websites like Uber or Lyft since Mongo is better with a bigger data set.
