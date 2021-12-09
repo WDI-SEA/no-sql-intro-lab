@@ -1,0 +1,17 @@
+1). When people use the term “NoSQL database,” they typically use it to refer to any non-relational database. Some say the term “NoSQL” stands for “non SQL” while others say it stands for “not only SQL.” Either way, most agree that NoSQL databases are databases that store data in a format other than relational tables.
+
+2). They have the ability to store large amounts of data with little structure.They provide scalability and flexibility to meet changing business requirements. They are best for Rapid Application Development. NoSQL is the best selection for flexible data storage with little to no structure limitations.
+
+3).An intuitive data model that is fast and easy for developers to work with.
+   A flexible schema that allows for the data model to evolve as application needs change.
+   The ability to horizontally scale out.
+
+4).The major difference between MongoDB and SQL Databases is the way they handle data. In SQL databases, data is stored in form of traditional 2 dimensional row-column structure while in MongoDB rich data document model is followed, which allows storage of any type of data.
+
+5).In MongoDB you would have  collections  
+    _id: which gives any entered data its own specifc obejct ID
+    users in mongodb would be located in collections(table in SQL)  
+    Then whatever data you pass in such as name, email, phone number. 
+
+6). If the data you are storing needs to be flexible in terms of shape or size, or if it needs to be open to change in future, then a non-relational database is the answer. Modern NoSQL databases have also been designed for the cloud, making them naturally good for 
+horizontal scaling where lots of smaller servers can be spun up to handle increased load.
