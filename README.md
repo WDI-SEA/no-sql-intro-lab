@@ -20,14 +20,14 @@ Fork and clone this repository and answer questions as you research directly in 
 3. In this class we will be using the document style of non-relational databases. What are the  charecteristics of a document based db?\
    Document based db consists of Binary JavaScript Object Notation objects, Document databases provide fast queries, a structure well suited for handling big data, flexible indexing and a simplified method of maintaining the database. 
 4. In this class we will be using Mongo specificially as our no-SQL db. Look into Mongo and answer this question: what is the priamry difference between how Mongo is maintained vrs SQL?\
-   -The major difference between MongoDB and SQL Databases is the way they handle data. In SQL databases, -data is stored in form of traditional 2 dimensional row-column structure while in MongoDB rich data -document model is followed, which allows storage of any type of data.
+   The major difference between MongoDB and SQL Databases is the way they handle data. In SQL databases, -data is stored in form of traditional 2 dimensional row-column structure while in MongoDB rich data document model is followed, which allows storage of any type of data.
    
 5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo. \
-    -a user in aa relational database will be given a fixed id created automatically by sql while in a -document no sql , Id would be created inside a collection as objects.
+    a user in aa relational database will be given a fixed id created automatically by sql while in a -document no sql , Id would be created inside a collection as objects.
 
 6. What is an example situation where a Mongo database makes sense versus a non-relational db?\
-    -In today's dynamic use cases and ever-changing applications, having a flexible data model is a boon. A -flexible data model means that there is no predefined schema, and the document can hold any set of -values based on any key.
-   -for relational databases, it would make sensse if it used on a bank 
+    In today's dynamic use cases and ever-changing applications, having a flexible data model is a boon. A flexible data model means that there is no predefined schema, and the document can hold any set of -values based on any key.
+   for relational databases, it would make sensse if it used on a bank 
 
     
 
