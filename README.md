@@ -13,7 +13,7 @@ Fork and clone this repository and answer questions as you research directly in 
 
 # Questions:
 1. What does the term noSQL refer to, and what other term is often used synonymously with noSQL?
-   -NoSQL, also referred to as “not only SQL”, “non-SQL”, is an approach to database design that enables the -storage and querying of data outside the traditional structures found in relational databases.
+   NoSQL, also referred to as “not only SQL”, “non-SQL”, is an approach to database design that enables the -storage and querying of data outside the traditional structures found in relational databases.
    
 2. What are some of the common arguments for using a non-relational versus a relational db?
    -NoSQL tends to be a better option for modern applications that have more complex, constantly changing -data sets, requiring a flexible data model that doesn’t need to be immediately defined, NoSQL databases -can store and process data in real-time.
